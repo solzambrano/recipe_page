@@ -3,14 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: Outfit;
+  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Young;
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
 article {
   width: 375px;
   margin: auto;
+  font-family: Outfit, sans-serif;
+  border: 1px solid black;
 }
 .hero {
   width: 100%;
 }
+.title,
+.paragraph {
+  padding: 25px;
+}
+.title {
+  font-size: 2.45rem;
+  padding: 20px;
+  font-weight: 580;
+  font-family: Young;
+}
 ul,
 ol {
   list-style-position: inside;
+}
+section,
+aside {
+  padding: 25px;
+}
+h2 {
+  margin-bottom: 15px;
 }
