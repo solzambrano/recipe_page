@@ -12,31 +12,35 @@
   src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 article {
-  width: 375px;
+  max-width: 375px;
+  width: 100%;
   margin: auto;
   border: 1px solid black;
+  font-family: Outfit;
 }
 .hero {
   width: 100%;
 }
-.title,
 .paragraph {
-  padding: 25px;
+  padding-left: 25px;
+  padding-right: 35px;
+  font-size: 1rem;
 }
 .title {
   font-size: 2.35rem;
-  padding: 20px;
+  padding: 20px 30px;
   font-weight: 580;
   font-family: Young;
 }
 ul,
 ol {
-  list-style-position: inside;
+  padding-left: 8px;
 }
 section,
 aside {
-  padding: 35px;
+  margin: 35px 40px;
   font-family: Outfit, sans-serif;
+  padding-bottom: 20px;
 }
 h2 {
   margin-bottom: 15px;
@@ -45,12 +49,25 @@ h2 {
 }
 li {
   font-size: 1rem;
-  line-height: 1.8rem;
+  margin-left: 15px;
+  padding-left: 7px;
 }
+
 .preparation {
   background-color: hsl(330, 100%, 98%);
+  margin: 20px 25px;
+  padding: 33px;
 }
 .preparation h2 {
   color: hsl(332, 51%, 32%);
   font-family: Outfit, sans-serif;
+}
+.preparation li + li {
+  line-height: 2.2rem;
+}
+.ingredients {
+  border-bottom: 1px solid hsl(14, 45%, 36%);
+}
+.ingredients li {
+  line-height: 2.1rem;
 }
