@@ -25,12 +25,17 @@ article {
   padding-left: 25px;
   padding-right: 35px;
   font-size: 1rem;
+  line-height: 1.4rem;
+  color: hsl(30, 10%, 34%);
 }
 .title {
   font-size: 2.35rem;
   padding: 20px 30px;
   font-weight: 580;
   font-family: Young;
+}
+strong {
+  color: hsl(24, 5%, 18%);
 }
 ul,
 ol {
@@ -51,6 +56,8 @@ li {
   font-size: 1rem;
   margin-left: 15px;
   padding-left: 7px;
+  line-height: 1.3rem;
+  margin-bottom: 7px;
 }
 
 .preparation {
@@ -65,9 +72,26 @@ li {
 .preparation li + li {
   line-height: 2.2rem;
 }
-.ingredients {
-  border-bottom: 1px solid hsl(14, 45%, 36%);
+.ingredients,
+.instructions {
+  border-bottom: 1px solid hsl(330, 100%, 98%);
 }
 .ingredients li {
   line-height: 2.1rem;
+}
+table {
+  margin-top: 15px;
+}
+tr {
+  border-bottom: 1px solid hsl(330, 100%, 98%);
+  display: flex;
+  justify-content: space-around;
+}
+td,
+th {
+  padding: 8px;
+}
+td {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
 }
