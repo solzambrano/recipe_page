@@ -14,7 +14,6 @@
 article {
   width: 375px;
   margin: auto;
-  font-family: Outfit, sans-serif;
   border: 1px solid black;
 }
 .hero {
@@ -25,7 +24,7 @@ article {
   padding: 25px;
 }
 .title {
-  font-size: 2.45rem;
+  font-size: 2.35rem;
   padding: 20px;
   font-weight: 580;
   font-family: Young;
@@ -36,8 +35,22 @@ ol {
 }
 section,
 aside {
-  padding: 25px;
+  padding: 35px;
+  font-family: Outfit, sans-serif;
 }
 h2 {
   margin-bottom: 15px;
+  color: hsl(14, 45%, 36%);
+  font-family: Young;
+}
+li {
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+}
+.preparation h2 {
+  color: hsl(332, 51%, 32%);
+  font-family: Outfit, sans-serif;
 }
