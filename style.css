@@ -11,13 +11,17 @@
   font-family: Young;
   src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
+body {
+  height: 2050px;
+  position: relative;
+}
 article {
   max-width: 375px;
   width: 100%;
   margin: auto;
   border: 1px solid black;
   font-family: Outfit;
-  background-color: hsl(30, 54%, 90%);
+  background-color: hsl(0, 0%, 100%);
 }
 .hero {
   width: 100%;
@@ -90,6 +94,10 @@ tr {
   justify-content: space-around;
   margin-bottom: 10px;
 }
+footer {
+  position: absolute;
+  bottom: 0;
+}
 td,
 th {
   padding: 8px;
@@ -107,14 +115,10 @@ td {
     padding-right: 85px;
   }
   article {
-    min-width: 700px;
-  }
-}
-@media (max-width: 400px) {
-  th {
-    padding-right: 85px;
-  }
-  article {
-    min-width: 700px;
+    min-width: 600px;
+    top: 70px;
+    padding: 25px;
+    border-radius: 15px;
+    height: 1845px;
   }
 }
