@@ -101,3 +101,20 @@ td {
   color: hsl(14, 45%, 36%);
   font-weight: 700;
 }
+
+@media (min-width: 600px) {
+  th {
+    padding-right: 85px;
+  }
+  article {
+    min-width: 700px;
+  }
+}
+@media (max-width: 400px) {
+  th {
+    padding-right: 85px;
+  }
+  article {
+    min-width: 700px;
+  }
+}
