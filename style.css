@@ -17,6 +17,7 @@ article {
   margin: auto;
   border: 1px solid black;
   font-family: Outfit;
+  background-color: hsl(30, 54%, 90%);
 }
 .hero {
   width: 100%;
@@ -39,11 +40,11 @@ strong {
 }
 ul,
 ol {
-  padding-left: 8px;
+  padding-left: 10px;
 }
 section,
 aside {
-  margin: 35px 40px;
+  margin: 35px 30px;
   font-family: Outfit, sans-serif;
   padding-bottom: 20px;
 }
@@ -81,15 +82,20 @@ li {
 }
 table {
   margin-top: 15px;
+  width: 100%;
 }
 tr {
   border-bottom: 1px solid hsl(330, 100%, 98%);
   display: flex;
   justify-content: space-around;
+  margin-bottom: 10px;
 }
 td,
 th {
   padding: 8px;
+}
+th {
+  font-weight: 500;
 }
 td {
   color: hsl(14, 45%, 36%);
