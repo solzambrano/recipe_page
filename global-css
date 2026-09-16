@@ -1,0 +1,9 @@
+:root {
+  --color-background: hsl(30, 54%, 90%);
+  --color-background-main: hsl(0, 0%, 100%);
+  --color-primary: hsl(14, 45%, 36%);
+  --color-text: hsl(30, 10%, 34%);
+  --color-strong: hsl(24, 5%, 18%);
+  --color-pink: hsl(330, 100%, 98%);
+  --color-subText: hsl(332, 51%, 32%);
+}

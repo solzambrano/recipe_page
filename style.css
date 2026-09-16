@@ -13,29 +13,28 @@
 }
 body {
   position: relative;
-  background-color: hsl(30, 54%, 90%);
+  background-color: var(--color-background);
 }
 a {
   text-decoration: none;
-  color: hsl(14, 45%, 36%);
 }
-article {
+main {
   max-width: 375px;
   width: 100%;
   margin: auto;
-  font-family: Outfit;
-  background-color: hsl(0, 0%, 100%);
+  font-family: Outfit, sans-serif;
+  background-color: var(--color-background-main);
   font-size: 0.9rem;
 }
 .hero {
   width: 100%;
 }
 .paragraph {
-  padding-left: 25px;
+  padding-inline-start: 25px;
   padding-right: 35px;
   font-size: 1rem;
   line-height: 1.4rem;
-  color: hsl(30, 10%, 34%);
+  color: var(--color-text);
 }
 .title {
   font-size: 2.35rem;
@@ -44,11 +43,11 @@ article {
   font-family: Young;
 }
 strong {
-  color: hsl(24, 5%, 18%);
+  color: var(--color-strong);
 }
 ul,
 ol {
-  padding-left: 10px;
+  padding-inline-start: 10px;
 }
 section,
 aside {
@@ -57,24 +56,23 @@ aside {
 }
 h2 {
   margin-bottom: 15px;
-  color: hsl(14, 45%, 36%);
+  color: var(--color-primary);
   font-family: Young;
 }
 li {
-  font-size: 1rem;
   margin-left: 15px;
-  padding-left: 10px;
+  padding-inline-start: 10px;
   line-height: 1.3rem;
   margin-bottom: 7px;
 }
 
 .preparation {
-  background-color: hsl(330, 100%, 98%);
+  background-color: var(--color-pink);
   margin: 20px 25px;
   padding: 33px;
 }
 .preparation h2 {
-  color: hsl(332, 51%, 32%);
+  color: var(--color-subText);
   font-family: Outfit, sans-serif;
 }
 .preparation li + li {
@@ -82,7 +80,7 @@ li {
 }
 .ingredients,
 .instructions {
-  border-bottom: 1px solid hsl(330, 100%, 98%);
+  border-bottom: 1px solid var(--color-pink);
 }
 .ingredients li {
   line-height: 2.1rem;
@@ -93,7 +91,7 @@ table {
   padding: 0px 20px;
 }
 tr:not(:last-child) {
-  border-bottom: 1px solid hsl(330, 100%, 98%);
+  border-bottom: 1px solid var(--color-pink);
 }
 td,
 th {
@@ -104,7 +102,7 @@ th {
   font-weight: 500;
 }
 td {
-  color: hsl(14, 45%, 36%);
+  color: var(--color-primary);
   font-weight: 700;
 }
 
@@ -112,9 +110,9 @@ td {
   th {
     padding-right: 85px;
   }
-  article {
+  main {
     min-width: 710px;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-bottom: 30px;
     padding: 25px;
     border-radius: 15px;
