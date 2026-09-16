@@ -12,16 +12,20 @@
   src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 body {
-  height: 2050px;
   position: relative;
+  background-color: hsl(30, 54%, 90%);
+}
+a {
+  text-decoration: none;
+  color: hsl(14, 45%, 36%);
 }
 article {
   max-width: 375px;
   width: 100%;
   margin: auto;
-  border: 1px solid black;
   font-family: Outfit;
   background-color: hsl(0, 0%, 100%);
+  font-size: 0.9rem;
 }
 .hero {
   width: 100%;
@@ -48,9 +52,8 @@ ol {
 }
 section,
 aside {
-  margin: 35px 30px;
+  margin: 35px 31px;
   font-family: Outfit, sans-serif;
-  padding-bottom: 20px;
 }
 h2 {
   margin-bottom: 15px;
@@ -60,7 +63,7 @@ h2 {
 li {
   font-size: 1rem;
   margin-left: 15px;
-  padding-left: 7px;
+  padding-left: 10px;
   line-height: 1.3rem;
   margin-bottom: 7px;
 }
@@ -87,20 +90,15 @@ li {
 table {
   margin-top: 15px;
   width: 100%;
+  padding: 0px 20px;
 }
-tr {
+tr:not(:last-child) {
   border-bottom: 1px solid hsl(330, 100%, 98%);
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 10px;
-}
-footer {
-  position: absolute;
-  bottom: 0;
 }
 td,
 th {
   padding: 8px;
+  text-align: left;
 }
 th {
   font-weight: 500;
@@ -115,10 +113,21 @@ td {
     padding-right: 85px;
   }
   article {
-    min-width: 600px;
-    top: 70px;
+    min-width: 710px;
+    margin-top: 70px;
+    margin-bottom: 30px;
     padding: 25px;
     border-radius: 15px;
-    height: 1845px;
+    height: auto;
+  }
+  img {
+    border-radius: 15px;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    width: 50%;
   }
 }
