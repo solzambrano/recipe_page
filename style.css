@@ -62,7 +62,6 @@ h2 {
 li {
   margin-left: 15px;
   padding-inline-start: 10px;
-  line-height: 1.3rem;
   margin-bottom: 7px;
   color: var(--color-text);
 }
