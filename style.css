@@ -51,8 +51,9 @@ ol {
 }
 section,
 aside {
-  margin: 35px 31px;
+  margin: 30px 31px;
   font-family: Outfit, sans-serif;
+  padding-bottom: 20px;
 }
 h2 {
   margin-bottom: 15px;
@@ -80,10 +81,10 @@ li {
 }
 .ingredients,
 .instructions {
-  border-bottom: 1px solid var(--color-pink);
+  border-bottom: 1px solid var(--color-border);
 }
 .ingredients li {
-  line-height: 2.1rem;
+  line-height: 1rem;
 }
 table {
   margin-top: 15px;
@@ -91,7 +92,7 @@ table {
   padding: 0px 20px;
 }
 tr:not(:last-child) {
-  border-bottom: 1px solid var(--color-pink);
+  border-bottom: 1px solid var(--color-border);
 }
 td,
 th {
