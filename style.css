@@ -51,7 +51,7 @@ ol {
 }
 section,
 aside {
-  margin: 30px 31px;
+  margin: 15px 31px;
   font-family: Outfit, sans-serif;
   padding-bottom: 20px;
 }
@@ -70,14 +70,14 @@ li {
 .preparation {
   background-color: var(--color-pink);
   margin: 20px 25px;
-  padding: 33px;
+  padding: 25px;
 }
 .preparation h2 {
   color: var(--color-subText);
   font-family: Outfit, sans-serif;
 }
 .preparation li + li {
-  line-height: 2.2rem;
+  line-height: 1rem;
 }
 .ingredients,
 .instructions {
@@ -118,6 +118,7 @@ td {
     padding: 25px;
     border-radius: 15px;
     height: auto;
+    padding-bottom: 0;
   }
   img {
     border-radius: 15px;
